@@ -1,0 +1,15 @@
+to cau1
+cs ht pd
+setpc 4
+setfc 4
+repeat 24 [ pu fd 130 pd circle 22.5 fill pu bk 130 pd  rt 360/24 ]
+setpc [ 163 73 163 ]
+circle 130
+setfc 4
+fill
+setfc 7 fill
+pu setxy 135 0 pd
+setfc [ 163 73 163 ] 
+fill
+end
+

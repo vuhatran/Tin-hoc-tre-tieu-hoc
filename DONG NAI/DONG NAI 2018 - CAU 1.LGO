@@ -1,0 +1,50 @@
+to bai1 :d
+cs pd
+make "r :d/4
+pu setxy -:d/2 -:d/2 pd
+make "h1 pos
+
+setpc 1
+fd :d rt 90 make "h2 pos
+fd :d rt 90 make "h3 pos
+fd :d rt 90 make "h4 pos
+fd :d rt 90 
+
+pu home pd
+setfc 4 fill
+setpc 1
+circle :r
+setfc 1 fill
+
+pu fd :r make "d1 pos 
+back :r rt 90 
+pu fd :r make "d2 pos 
+bk :r rt 90 
+pu fd :r make "d3 pos 
+bk :r rt 90 
+pu fd :r make "d4 pos 
+bk :r rt 90 
+
+pu setpos :d3 pd
+setpos :h1
+setpos :d4
+setpos :h2
+setpos :d1
+setpos :h3
+setpos :d2
+setpos :h4
+setpos :d3
+
+pu home pd
+repeat 4 [ pu fd :r+5 pd setfc 7 fill pu bk :r+5 pd rt 90 ]
+end
+
+Make "d1 [0 20]
+Make "d2 [20 0]
+Make "d3 [0 -20]
+Make "d4 [-20 0]
+Make "h1 [-40 -40]
+Make "h2 [-39.999999 40]
+Make "h3 [40 40]
+Make "h4 [40 -40]
+Make "r 20

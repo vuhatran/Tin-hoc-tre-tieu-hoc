@@ -1,0 +1,8 @@
+to hinhve
+cs pd
+repeat 4 [ fd 300 rt 90 ]
+repeat 4 [ repeat 3 [ arc2 180 50 lt 180 ] lt 90 ]
+pu setxy 100 100 pd
+repeat 4 [ repeat 4 [ circle2 50 rt 90 ] pu fd 100 pd rt 90 ]
+end
+

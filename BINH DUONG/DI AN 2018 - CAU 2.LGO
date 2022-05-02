@@ -1,0 +1,30 @@
+to cau2
+cs ht pd
+fd 100 make "a1 pos rt 360/6
+fd 100 make "a2 pos rt 360/6
+fd 100 make "a3 pos rt 360/6
+fd 100 make "a4 pos rt 360/6
+fd 100 make "a5 pos rt 360/6
+fd 100 make "a0 pos rt 360/6
+setpos :a2
+setpos :a4
+setpos :a0
+setpos :a1
+setpos :a3
+setpos :a5
+setpos :a1
+rt 120
+setfc 0
+pu fd (distance :a4)/2 pd
+repeat 6 [ pu fd 60 pd fill pu bk 60 pd rt 360/6 ]
+circle 50
+end
+
+Make "a [0 100]
+Make "a0 [0 0]
+Make "a1 [0 100]
+Make "a2 [86.60254 150]
+Make "a3 [173.20508 100]
+Make "a4 [173.20508 0]
+Make "a5 [86.60254 -49.999999]
+Make "a6 [0 0]

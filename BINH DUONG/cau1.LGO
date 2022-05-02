@@ -1,0 +1,16 @@
+to cau1
+cs ht pd
+setpc 1
+circle 50
+setfc 4 fill
+pu setpos [0 -50] pd
+lt 30
+repeat 3 [ fd 86.6025394178075 rt 360/3 ]
+pu setxy 0 0 pd
+setfc 7 fill
+pu setpos [0 -50] pd
+setheading -90
+bk 86.6025394178075
+repeat 3 [ fd 86.6025394178075*2 rt 360/3 ]
+end
+

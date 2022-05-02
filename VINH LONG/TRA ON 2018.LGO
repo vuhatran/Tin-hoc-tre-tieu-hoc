@@ -1,0 +1,36 @@
+to bai1
+cs ht pd
+setfc 10
+repeat 6 [ hinhthoi1 rt 360/6 ]
+repeat 3 [ fd 50
+lt 60
+hinhthoi2
+rt 60
+pu fd 10 fill
+bk 10+50 pd
+rt 360/3 
+]
+end
+
+to bai2
+cs ht pd
+for [ a 1 9 1 ] [
+for [ b 0 9 1 ] [
+for [ c 0 9 1 ] [
+for [ d 0 9 1 ] [
+if and (:a+:b+:c+:d=19) ((:a*10+:b)*(:c*10+:d)=342)[
+if ((:a*10+:b)-(:c*10+:d)<0) [rt 90 
+label (list :a*1000+:b*100+:c*10+:d )
+]
+]
+]]]]
+end
+
+to hinhthoi1
+repeat 2 [  fd 50 rt 60  fd 50 rt 120 ]
+end
+
+to hinhthoi2
+repeat 2 [ fd 50 rt 120 fd 50 rt 60  ]
+end
+

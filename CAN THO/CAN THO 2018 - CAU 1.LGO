@@ -1,0 +1,17 @@
+to hinhve
+cs ht pd
+setpc 1 
+setpensize [ 1 3 ]
+repeat 3 [ arc2 180 100 rt 360-180-360/6]
+make "a pos
+repeat 3 [ arc2 180 100 rt 360-180-360/6]
+setheading towards :a
+make "b distance :a
+pu fd :b/2 pd
+circle :b/2
+setfc 13
+fill
+end
+
+Make "a [199.999999 346.410161]
+Make "b 399.999999055057

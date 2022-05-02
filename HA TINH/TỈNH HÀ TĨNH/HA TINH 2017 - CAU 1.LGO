@@ -1,0 +1,14 @@
+to bai1
+cs ht pd
+rt 90
+setpc 1
+setpensize [ 1 3 ]
+repeat 10 [  hinhvuong fd 15 rt 36  ]
+end
+
+to hinhvuong
+fd 100 rt 90
+circle2 20
+repeat 3 [ fd 100 rt 90 ]
+end
+

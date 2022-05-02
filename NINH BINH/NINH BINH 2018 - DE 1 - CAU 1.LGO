@@ -1,0 +1,12 @@
+to bai11
+cs ht pd
+repeat 8 [ 
+	make "d 50
+	repeat 4 [ 	
+		repeat 5 [ fd :d rt 72 ] 				
+		make "d :d+20 
+	]
+	rt 360/8 
+]
+end
+

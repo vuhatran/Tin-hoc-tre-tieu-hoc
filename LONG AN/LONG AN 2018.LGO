@@ -1,0 +1,29 @@
+to cau1
+cs ht pd
+setpc 1
+setpensize [ 1 2 ]
+repeat 10 [ ngoisao rt 360/10 ]
+end
+
+to cau2
+cs ht pd
+setpc 1
+setpensize [ 1 2 ]
+repeat 12 [
+fd 100 rt 90 make "a pos
+repeat 3 [ fd 100 rt 90 ]
+fd 13.4
+rt 360/12
+fd 50 make "b pos
+setpos :a
+setpos :b
+bk 50
+]
+end
+
+to ngoisao 
+repeat 5 [ fd 100 rt 144 ]
+end
+
+Make "a [-43.300002 74.997798]
+Make "b [-2e-06 49.999998]

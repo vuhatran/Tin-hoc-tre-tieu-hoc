@@ -1,0 +1,19 @@
+to cau2
+cs st pd
+setpensize [ 1 2 ]
+setpc 1
+circle 100
+repeat 4 [
+pu fd 25 pd
+arc 180 25
+pu fd 25 pd
+arc 180 50
+pu fd 25 pd
+rt 180
+arc 180 25
+setfc 4 fill
+pu fd 75 pd
+rt 180
+rt 90]
+end
+

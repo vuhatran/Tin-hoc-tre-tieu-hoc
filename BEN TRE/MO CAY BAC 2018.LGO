@@ -1,0 +1,15 @@
+to Cau2
+cs
+fd 100 rt 90 fd 100 make "a pos
+home
+repeat 12[ repeat 4[fd 100 rt 90] rt 360/24 fd 10 ]
+fd 100 rt 90 fd 100 make "d distance :a
+Setheading Towards :a 
+fd :d/2 make "a pos
+cs
+setpc 2 repeat 24[ repeat 4[fd 100 rt 90] rt 360/24 fd 10 ]
+setpos :a setpc 4 circle :d/2
+end
+
+Make "a [37.97877 -5]
+Make "d 243.898608824818

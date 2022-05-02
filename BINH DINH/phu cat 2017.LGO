@@ -1,0 +1,30 @@
+to dientich
+cs ht pd
+repeat 4 [ fd 100 rt 90 ]
+rt 90
+repeat 4 [ fd 80 rt 90 ]
+setxy 0 -80
+setxy 80 0
+setxy 100 100
+setxy 0 -80
+setfc 0 
+pu setxy 60 -10 pd
+fill
+pu setxy 60 10 pd
+fill
+
+make "S1 100*100 		;ABCD
+make "S2 80*80			;DEGH
+make "S3 100*20/2		;BCE
+make "S4 80*80/2		;EGH
+make "S5 (100+80)*100/2	;ABH
+
+show (:S1+:S2)-(:S3+:S4+:S5)
+
+end
+
+Make "s1 10000
+Make "s2 6400
+Make "s3 1000
+Make "s4 3200
+Make "s5 9000

@@ -1,0 +1,22 @@
+to bai3
+cs ht pd
+repeat 10 [ lucgiac ngugiac rt 360/10 ]
+end
+
+to lucgiac
+setpensize [ 1 3 ]
+setpc 4
+repeat 6 [ fd 100 rt 360/6 ]
+end
+
+to ngugiac
+setpensize [ 1 3 ]
+setpc 1 
+repeat 5 [ fd 100 lt 360/5 ]
+fd 50 lt 90
+pu fd 50 pd
+setfc 6 fill
+pu bk 50 pd
+rt 90 fd 50
+end
+

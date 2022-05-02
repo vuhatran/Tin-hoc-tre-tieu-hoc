@@ -1,0 +1,40 @@
+to hinh1
+cs ht pd
+fd 150 pu fd 20 pd circle 20
+pu bk 100 pd
+
+rt 45 fd 50
+pu fd 20 pd circle 20
+
+pu bk 70 pd
+lt 45
+lt 45 fd 50
+pu fd 20 pd circle 20
+end
+
+to hinh2
+cs ht pd
+rt 90
+for [ i 10 1 -1 ] [ repeat 5 [ fd :i*20 lt 360/5 ] fd 10 ]
+end
+
+to hinh3
+cs ht pd
+repeat 6 [ repeat 4 [ fd 100 lt 90 ] fd 80 rt 360/6  ]
+end
+
+to hinh4
+cs ht pd
+circle 50
+repeat 8 [ pu fd 90 pd rt 90 ellipse 40 20 lt 90 pu bk 90 rt 360/8 ]
+end
+
+to timso
+cs ht pd
+for [ so 10 99 1 ] [ 
+make "tram int :so/10
+make "donvi modulo :so 10
+if (( :tram*100 + :donvi)/:so=9) [show :so]
+]
+end
+

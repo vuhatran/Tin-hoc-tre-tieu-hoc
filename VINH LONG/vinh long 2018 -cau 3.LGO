@@ -1,0 +1,23 @@
+to timso
+cs ht pd
+rt 90
+setpc 1
+make "dem 0
+make "y 300
+for [ a 1 9 1 ] [
+make "x -400
+make "y :y-40
+pu setxy :x 0 pd
+for [ b 1 9 1 ] [
+for [ c 0 9 1 ] [
+if (:a+:c=:b) [ make "dem :dem+1 make "x :x+50 pu setxy :x :y pd label( :a*100+:b*10+:c )] 
+]]]
+make "y :y-40
+setpc 4
+pu setxy :x :y pd 
+label ( list "Coù "taát "caû :dem "soá )
+end
+
+Make "dem 45
+Make "x -350
+Make "y -100

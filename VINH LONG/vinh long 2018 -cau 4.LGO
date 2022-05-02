@@ -1,0 +1,23 @@
+to bantao
+cs
+make "xanh 2
+make "tx 2
+make "do 1
+make "td 1
+for [ 1 9 1 ] [ 
+make "do :do+1
+make "td :td+:do
+make "xanh :td*2
+make "tx :tx+:xanh
+]
+make "tx :tx +5
+show :td
+show :tx
+
+end
+
+Make "do 10
+Make "td 55
+Make "tong 1525
+Make "tx 445
+Make "xanh 110

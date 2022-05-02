@@ -1,0 +1,9 @@
+to hocsinh
+cs ht pd
+for [ hs 201 299 1 ] [
+if and ((modulo :hs 10) = 8 ) ( (modulo :hs+4 12)= 0 ) [ 
+rt 90
+label (list "So "hoc "sinh "khoi "3 "la: :hs ) ]
+]
+end
+

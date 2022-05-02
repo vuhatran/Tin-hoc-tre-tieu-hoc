@@ -1,0 +1,15 @@
+to muahoa
+cs ht pd
+for [ hoahong 1 100/5 1 ] [
+for [ hoacuc 1 100/3 1 ] [
+make "camchuong 100-:hoahong-:hoacuc
+if ( :hoahong*5000 + :hoacuc*3000 + :camchuong*500 = 100000 ) [
+show :hoahong
+show :hoacuc
+show :camchuong
+]
+]
+]
+end
+
+Make "camchuong 47

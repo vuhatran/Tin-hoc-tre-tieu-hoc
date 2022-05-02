@@ -1,0 +1,36 @@
+to bienbao
+cs ht pd
+setpc 4
+setpensize [ 1 20]
+rt 90
+repeat 3 [ fd 300 lt 120 ]
+fd 150
+lt 90
+PU FD 70 PD
+setpensize [ 1 2 ]
+SETFC 6 FILL
+SETPC 1
+CIRCLE 20
+setfc 1 fill
+pu fd 80 pd
+setpc 4
+CIRCLE 20
+setfc 4 fill
+rt 90
+fd 20
+rt 90
+setpc 0
+fd 80
+rt 90
+pu fd 40 pd
+rt 90
+fd 80
+pu setxy 150 110 pd
+setfc 0 fill
+setpc 6
+circle 20
+setfc 6 fill
+setpc 0
+circle 20
+end
+

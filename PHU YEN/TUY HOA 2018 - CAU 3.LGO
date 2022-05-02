@@ -1,0 +1,10 @@
+to cau3
+cs ht pd
+setpc 1
+setpensize [ 1 2 ]
+circle 50
+setfc 4 fill
+setfc 6 
+repeat 8 [ pu fd 90 pd rt 90 ellipse 40 20 fill lt 90 pu bk 90 rt 360/8 ]
+end
+

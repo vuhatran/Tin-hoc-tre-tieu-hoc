@@ -1,0 +1,9 @@
+to bai2
+cs ht pd
+repeat 10 [ hinhvuong fd 100 rt 360/10 ]
+end
+
+to hinhvuong
+repeat 4 [ fd 100 rt 90 ]
+end
+

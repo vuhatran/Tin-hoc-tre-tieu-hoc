@@ -1,0 +1,20 @@
+to batgiac
+repeat 8 [ fd 100 rt 360/8 ]
+end
+
+to cau1
+cs ht pd
+setpensize [ 1 2 ]
+setpc 1
+repeat 8 [ batgiac rt 360/8 ]
+rt 360/16
+repeat 8 [	
+	pu fd 50 pd
+	setfc 4 fill	
+	pu fd 150 pd
+	setfc 3 fill
+	pu bk 200 pd
+	rt 360/8 
+]
+end
+

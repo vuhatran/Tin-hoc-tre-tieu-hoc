@@ -1,0 +1,26 @@
+to laybi
+cs pd ht
+make "dem 0
+make "x -400
+setpc 1
+setheading 90
+for [bxanh 3 10 1][
+make "x :x+100
+make "y 400
+for [bdo 1 7 1] [
+make "bvang 20-:bdo-:bxanh
+if (:bvang < 11) [
+pu setxy :x :y pd
+label ( list :bxanh :bdo :bvang  )
+make "y :y-30
+make "dem :dem+1
+] ] ]
+setpc 4
+pu setxy -300 450 pd
+label (list "Co "tat "ca :dem "cach "lay "bi "xanh-do-vang )
+end
+
+Make "bvang 3
+Make "dem 35
+Make "x 400
+Make "y 190

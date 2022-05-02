@@ -1,0 +1,20 @@
+to cau1
+cs ht pd
+setpensize [ 1 2 ]
+setpc 1
+repeat 24 [ repeat 4 [ fd 200 rt 90 ] fd 20 rt 360/24 ]
+repeat 2 [ fd 200 rt 90 ]
+make "a pos
+pu home pd
+repeat 12 [ fd 20 rt 360/24 ]
+Setheading Towards [ 0 0 ]
+make "d distance [ 0 0 ]
+pu fd :d/2 pd
+make "r distance :a
+setpc 4
+circle :r
+end
+
+Make "a [200 199.999999]
+Make "d 153.225951127956
+Make "r 226.906437226375

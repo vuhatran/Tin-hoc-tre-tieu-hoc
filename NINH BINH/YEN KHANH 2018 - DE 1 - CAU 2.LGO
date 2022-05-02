@@ -1,0 +1,13 @@
+to dientich :a :h
+cs ht pd
+make "b :a*3/4
+repeat 2 [ fd :b rt 90 fd :a rt 90 ]
+setxy :h :b
+pu setxy :a/2 :h pd
+setfc 3 fill
+pu setxy 0 -50 pd
+rt 90
+label (list "Dien "tich "hinh "thang "la: :b*(:a+:a-:h)/2 )
+end
+
+Make "b 300

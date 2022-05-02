@@ -1,0 +1,15 @@
+to hinhvuong
+cs pd ht
+make "a 200 ;canh hinh vuong 200
+make "S 0 ;dientich
+for [ i 1 7 1 ] [ repeat 4 [ fd :a rt 90 ]
+make "S :S+:a*:a
+fd :a/2
+rt 45
+make "a sqrt (:a/2*:a/2+:a/2*:a/2)
+]
+pu setxy 0 -50 pd
+setheading 90
+label (list "Tong "dien "tich "7 "hinh "vuong "la: :S)
+end
+

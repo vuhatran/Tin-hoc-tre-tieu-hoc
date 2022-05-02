@@ -1,0 +1,12 @@
+to canh
+repeat 4 [ fd 100 rt 90 ]
+fd 100 rt 30
+repeat 3 [ fd 100 rt 120 ]
+lt 30 bk 100
+end
+
+to chongchong
+cs ht pd
+repeat 8 [ canh rt 360/8 ]
+end
+

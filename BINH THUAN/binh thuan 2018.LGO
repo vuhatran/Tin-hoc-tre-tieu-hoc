@@ -1,0 +1,17 @@
+to bienbao
+cs ht pd
+setpensize [1 2]
+setpc 1
+repeat 2 [ fd 320 rt 90 fd 240 rt 90 ]
+pu setxy 20 100 pd
+setfc 1 fill
+setpc 7
+repeat 4 [ fd 200 rt 90 ]
+pu setxy 95 225 pd
+setfc 7 fill
+setpc 4
+repeat 4 [ fd 50 rt 90 fd 50 rt 90 fd 50 lt 90 ]
+pu setxy 240/2 300/2 pd
+setfc 4 fill
+end
+

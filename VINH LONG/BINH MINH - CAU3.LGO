@@ -1,0 +1,17 @@
+to cau3
+cs ht pd
+make "giatri 1
+make "donvi 0
+make "demso 1
+while [ :giatri < 4070307 ] [ 
+make "donvi :donvi+2
+make "giatri :giatri+:donvi 
+make "demso :demso+1
+show :giatri
+]
+show :demso
+end
+
+Make "demso 2018
+Make "donvi 4034
+Make "giatri 4070307

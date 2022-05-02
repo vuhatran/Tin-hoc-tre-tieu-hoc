@@ -1,0 +1,9 @@
+to thovaga
+cs ht pd
+for [ tho 1 42 1 ] [
+make "ga 43-:tho
+if (:tho*4+:ga*2=100) [ rt 90
+label (list "Dap "an: "Tho :tho "- "Ga :ga) ]
+]
+end
+

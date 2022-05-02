@@ -1,0 +1,10 @@
+to cau1
+cs pd ht
+repeat 4 [ fd 200 rt 90 ]
+pu setxy 25 25 pd
+repeat 4 [ fd 150 rt 90 ]
+pu setxy 100 100 pd
+circle 50
+ht
+end
+

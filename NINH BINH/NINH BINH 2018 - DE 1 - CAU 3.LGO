@@ -1,0 +1,11 @@
+to bai13
+cs ht pd
+for [ xecon 1 14 1 ] [
+make "xeto 15-:xecon
+if (:xecon*15+:xeto*30=360) [ rt 90
+label (list "So "xe "con: :xecon )
+pu setxy 0 -30 pd 
+label (list "So "xe "to: :xeto)  ]
+]
+end
+

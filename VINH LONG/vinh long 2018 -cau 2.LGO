@@ -1,0 +1,29 @@
+to cat
+cs ht pd
+setpc 0
+setpensize [1 2]
+setheading 90
+setxy -50 50 
+setxy 0 50 
+arc 180 50
+setxy 50 50 
+setxy 0 0
+setheading -90
+setxy -50 -50 
+setxy 0 -50 
+arc 180 50
+setxy 50 -50 
+setxy 0 0
+setpc 4
+pu
+setxy 0 25
+setfc 4 fill
+pd
+pu setxy 0 50 pd
+fd 49 bk 98 fd 49
+setxy 0 -50
+fd 49 bk 98
+pu setxy 0 -75 pd
+fill
+end
+

@@ -1,0 +1,18 @@
+to cau1
+cs ht pd
+setpc 0
+circle 50
+setfc 0 fill
+setpos [0 -50]
+lt 30
+setpc 7
+repeat 3 [ fd 86.6025394178075 rt 120 ]
+pu setxy 0 0 pd
+setfc 7 fill
+setpos [0 -50]
+setheading 270
+setpc 0
+bk 86.6025394178075
+repeat 3 [ fd 86.6025394178075*2 rt 120 ]
+end
+
